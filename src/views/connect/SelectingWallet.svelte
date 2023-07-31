@@ -69,18 +69,18 @@
 <svelte:window bind:innerWidth={windowWidth} />
 
 <div class="outer-container">
-  {#if connectingErrorMessage}
+  <!-- {#if connectingErrorMessage}
     <div class="warning-container">
       <Warning>{@html connectingErrorMessage}</Warning>
       <div>Please refresh</div>
     </div>
-  {/if}
+  {/if} -->
 
   {#if connectingErrorMessage}
     <div>Please refresh</div>
   {/if}
   <div>Hello world</div>
-  <div class="wallets-container">
+  <!-- <div class="wallets-container">
     {#each wallets as wallet}
       <WalletButton
         connected={checkConnected(wallet.label)}
@@ -113,5 +113,5 @@
         </Warning>
       </div>
     {/if}
-  </div>
+  </div> -->
 </div>
