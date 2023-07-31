@@ -79,7 +79,7 @@
   {#if connectingErrorMessage}
     <div>Please refresh</div>
   {/if}
-
+  <div>Hello world</div>
   <div class="wallets-container">
     {#each wallets as wallet}
       <WalletButton
