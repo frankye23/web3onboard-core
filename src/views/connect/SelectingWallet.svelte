@@ -76,6 +76,10 @@
     </div>
   {/if}
 
+  {#if connectingErrorMessage}
+    <div>Please refresh</div>
+  {/if}
+
   <div class="wallets-container">
     {#each wallets as wallet}
       <WalletButton
