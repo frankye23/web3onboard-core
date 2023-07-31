@@ -119,6 +119,7 @@
     icon,
     getInterface
   }: WalletWithLoadingIcon): Promise<void> {
+    console.log(label, 456)
     connectingWalletLabel = label
     
     try {
